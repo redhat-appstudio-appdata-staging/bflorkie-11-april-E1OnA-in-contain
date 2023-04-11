@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-vhia
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:E1OnA-devfile-sample-vhia
+      - image: quay.io/redhat-appstudio/user-workload@sha256:2a319230771300a6552361f91665e1405ae38b494b0c6a126b41a20796391c57
         name: my-nodejs
         ports:
         - containerPort: 3001
