@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-vhia
+  namespace: bflorkie-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio/user-workload@sha256:2a319230771300a6552361f91665e1405ae38b494b0c6a126b41a20796391c57
+        name: my-nodejs
+        resources: {}
+status: {}
