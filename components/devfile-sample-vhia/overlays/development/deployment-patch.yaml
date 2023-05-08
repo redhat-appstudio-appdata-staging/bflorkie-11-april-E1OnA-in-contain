@@ -3,7 +3,6 @@ kind: Deployment
 metadata:
   creationTimestamp: null
   name: devfile-sample-vhia
-  namespace: bflorkie-tenant
 spec:
   replicas: 1
   selector: {}
