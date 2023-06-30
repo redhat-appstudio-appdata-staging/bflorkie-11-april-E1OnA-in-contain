@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: devfile-sample-vhia
     app.kubernetes.io/part-of: bflorkie-11-april
-  name: devfile-sample-vhiangdf
+  name: devfile-sample-vhiampyk
 spec:
   path: /
   port:
