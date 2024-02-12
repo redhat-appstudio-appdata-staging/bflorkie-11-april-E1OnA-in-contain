@@ -9,9 +9,9 @@ metadata:
     app.kubernetes.io/name: devfile-sample-vhia
     app.kubernetes.io/part-of: bflorkie-11-april
   name: devfile-sample-vhia
-  namespace: bflorkie-tenant
 spec:
-  replicas: 1
+  replicas: 0
+  revisionHistoryLimit: 0
   selector:
     matchLabels:
       app: nodejs-app
